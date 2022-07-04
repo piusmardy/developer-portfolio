@@ -9,6 +9,10 @@ h1 {
     font-size: 50px;
 }
 
+h2 {
+    font-size: 40px;
+}
+
 .color {
     color: rgb(255, 0, 208);
 }
@@ -22,6 +26,7 @@ h1 {
     width: 50%;
     padding-left: 6%;
     padding-right: 6%;
+
 }
 
 
@@ -51,4 +56,34 @@ h1 {
     background-repeat: no-repeat;
     background-position: right;
     background-size: 100px;
+}
+
+.experience-item {
+    width: 50%;
+    margin-left: 30px;
+    margin-right: 30px;
+    padding-left: 2px;
+    border-radius: 10px;
+    box-shadow: 10px 10px 40px black;
+
+}
+
+.experience-area {
+    background-image: url(images/exp-bg.png);
+    background-repeat: no-repeat;
+    background-position: left;
+}
+
+#full-stack-developer {
+    border-left: 7px solid black;
+    border-right: 7px solid hotpink;
+}
+
+#baby-web-developer {
+    border-left: 7px solid black;
+    border-right: 7px solid hotpink;
+}
+
+footer p {
+    text-align: center;
 }
